@@ -11,7 +11,7 @@ a {
 
 /* Header */
 header {
-  background: #fff;
+  background:transparent;
   border-bottom: 1px solid #eee;
   position: sticky;
   top: 0;
