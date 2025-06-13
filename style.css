@@ -68,6 +68,7 @@ nav a {
   background: url('images/hero-bg.jpg') center/cover no-repeat;
   min-height: calc(100vh - 100px);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -94,15 +95,14 @@ nav a {
   z-index: 1;
 }
 
-/* Hero tekstboks */
+/* Hero tekstboks (kun om h1) */
 .hero-textbox {
-  background-color: rgba(0, 0, 0, 0.6); /* sort boks med transparens */
-  padding: 2em;
-  border-radius: 12px;
-  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6); /* sort med gennemsigtighed */
+  padding: 0.2em 0.6em;
+  border-radius: 8px;
+  display: inline-block;
   position: relative;
   z-index: 1;
-  max-width: 90%;
   animation: fadein 1s ease-in-out;
 }
 
@@ -116,10 +116,10 @@ nav a {
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
-/* Fade-in effekt */
+/* Fade-in animation */
 @keyframes fadein {
   from {
     opacity: 0;
@@ -219,6 +219,6 @@ footer {
   }
 
   .hero-textbox {
-    padding: 1.5em;
+    padding: 0.2em 0.6em;
   }
 }
