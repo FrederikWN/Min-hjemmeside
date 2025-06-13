@@ -39,9 +39,10 @@ nav {
 }
 
 nav a {
-  margin: 0 1em;
-  font-weight: 500;
-  font-size: 0.95em;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .user-controls {
