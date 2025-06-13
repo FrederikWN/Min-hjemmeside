@@ -23,7 +23,7 @@ header {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  column-gap: 4em;
+  column-gap: 2em;
   padding: 1em 0 1em 1em;
   width: 100%;
 }
@@ -34,7 +34,7 @@ header {
 }
 
 .logo img {
-  height: 140px;
+  height: 160px;
   width: auto;
   display: block;
   object-fit: contain;
