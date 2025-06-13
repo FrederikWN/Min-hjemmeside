@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Min Hjemmeside</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Min A.KJÆRBEDE‑inspirerede side</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Velkommen til min side</h1>
-    <nav>
-      <a href="#">Forside</a>
-      <a href="#">Om mig</a>
-      <a href="#">Kontakt</a>
-    </nav>
+    <div class="nav-container">
+      <div class="logo">MIT LOGO</div>
+      <nav>
+        <a href="#">Shop</a>
+        <a href="#">Produkter</a>
+        <a href="#">About</a>
+        <a href="#">Kontakt</a>
+      </nav>
+      <div class="user-controls">
+        <a href="#">Log ind</a>
+        <a href="#" class="cart">🛒</a>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>Hvad jeg laver</h2>
-      <p>Her kan du skrive lidt om dig selv eller det, din side handler om.</p>
-    </section>
+  <section class="hero">
+    <h1>New Arrivals</h1>
+    <a href="#" class="button">VIEW ALL</a>
+  </section>
+
+  <main class="product-grid">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300" alt="Produkt">
+      <div class="info">
+        <span class="name">Vigour - Tan</span>
+        <span class="price">299,00 kr</span>
+      </div>
+    </div>
+    <!-- gentag product-card for flere -->
   </main>
 
   <footer>
-    <p>&copy; 2025 Mit Navn</p>
+    <div class="footer-links">
+      <a href="#">Om os</a>
+      <a href="#">Butikker</a>
+      <a href="#">Hjælp</a>
+    </div>
+    <div class="newsletter">
+      <input type="email" placeholder="Email">
+      <button>Tilmeld</button>
+    </div>
+    <p>© 2025 Mit Brand, All rights reserved.</p>
   </footer>
 </body>
 </html>
