@@ -101,7 +101,7 @@ nav a {
 
 .hero h1 {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 8em;
+  font-size: 8em !important;
   margin: 0;
   z-index: 1;
 }
