@@ -96,13 +96,6 @@ nav {
   z-index: 1;
 }
 
-.hero p.subtext {
-  font-size: 1.2em;
-  letter-spacing: 1px;
-  margin-top: 0.4em;
-  color: #ccc;
-}
-
 .button {
   display: inline-block;
   padding: 0.75em 1.5em;
@@ -127,42 +120,12 @@ nav {
   }
 }
 
-/* PRODUCT GRID */
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5em;
-  padding: 2em;
-}
-
-.product-card {
-  background: #fff;
-  border: 1px solid #eee;
-  text-align: center;
-  padding-bottom: 1em;
-}
-
-.product-card img {
-  width: 100%;
-  height: auto;
-}
-
-.info {
-  padding: 1em 0;
-}
-
-.name {
-  font-weight: 600;
-  margin-bottom: 0.5em;
-  display: block;
-}
-
-/* BLOG GRID – inspireret af PAUSE */
+/* BLOG GRID */
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2em;
-  padding: 2em 2em 6em 2em; /* top, right, bottom, left */
+  padding: 2em 2em 6em 2em;
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 200px;
@@ -185,11 +148,11 @@ nav {
 }
 
 .blog-title {
-  font-size: 2.5em;
+  font-size: 3em;
   margin-top: 0.8em;
   font-family: 'Bebas Neue', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 /* FOOTER */
@@ -248,12 +211,13 @@ footer {
     font-size: 3em;
   }
 
-  .hero p.subtext {
-    font-size: 1em;
-  }
-
   .hero-textbox {
     padding: 0.2em 0.6em;
+  }
+
+  .blog-title {
+    font-size: 2em;
+    letter-spacing: 2px;
   }
 }
 
