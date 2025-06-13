@@ -106,6 +106,16 @@ nav a {
   z-index: 1;
 }
 
+/* HERO TEKSTBOKS */
+.hero-textbox {
+  background-color: rgba(0, 0, 0, 0.6); /* Sort boks med gennemsigtighed */
+  padding: 2em;
+  border-radius: 12px;
+  text-align: center;
+  z-index: 1;
+  max-width: 90%;
+}
+
 /* Product grid */
 .product-grid {
   display: grid;
