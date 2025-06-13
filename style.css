@@ -93,10 +93,10 @@ nav a {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 0.2em 0.6em;
   border-radius: 8px;
-  display: inline-block;
+  display: inline-block !important;
   position: relative;
   z-index: 1;
-  animation: fadein 1s ease-in-out;
+  animation: fadein 2s ease-in-out;
 }
 
 .hero h1 {
