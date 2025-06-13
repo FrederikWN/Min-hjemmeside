@@ -26,8 +26,9 @@ header {
   padding: 1em 2em;
 }
 
-.logo {
-  flex-shrink: 0;
+.logo img {
+  height: 60px;
+  display: block;
 }
 
 nav {
