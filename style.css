@@ -26,7 +26,7 @@ header {
 
 .logo img {
   height: 80px !important;
-  width: auto !important;
+  width: auto
   display: block;
   object-fit: contain;
   margin-top: 0;
