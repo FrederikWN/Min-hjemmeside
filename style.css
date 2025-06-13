@@ -39,7 +39,7 @@ header {
   width: auto;
   display: block;
   object-fit: contain;
-  margin-left: 0;
+  margin-left: 1;
 }
 
 /* Navigation */
