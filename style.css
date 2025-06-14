@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   color: #333;
+  background: #fff;
 }
 
 a {
@@ -45,6 +46,7 @@ header {
   object-fit: contain;
 }
 
+/* Navigation */
 nav {
   display: flex;
   gap: 4em;
@@ -127,7 +129,7 @@ nav {
   gap: 2em;
   padding: 2em;
   max-width: 1200px;
-  margin: 0 auto 6em auto; /* giver luft ned mod footer */
+  margin: 0 auto 6em auto;
 }
 
 .blog-card {
@@ -139,6 +141,7 @@ nav {
 .blog-card img {
   width: 100%;
   height: auto;
+  display: block;
   transition: transform 0.3s ease;
 }
 
