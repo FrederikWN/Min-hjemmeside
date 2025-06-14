@@ -140,8 +140,8 @@ nav {
 
 .blog-card img {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 300px; /* ens højde */
+  object-fit: cover; /* beskær så billedet fylder arealet */
   transition: transform 0.3s ease;
 }
 
